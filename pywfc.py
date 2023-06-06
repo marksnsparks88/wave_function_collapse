@@ -838,7 +838,7 @@ if __name__ == '__main__':
     # s=Util.time(start=True, text='Setting up')
     wfc = Overlapping('Cat', 3, 48, 48, True, True, 2)
     # t=Util.time(last=s, text='Done>')
-    wfc.print(fRate=7, refresh=50)
+    wfc.run(fRate=7, refresh=50)
     # t=Util.time(last=t, text='Done>')
 
 
